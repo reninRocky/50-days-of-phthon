@@ -123,3 +123,19 @@ print("num1 is greater")if(num1>num2) elseprint("num1 and num2 is equal")if(num1
 ##for i in range(7):
 ##    print('*  '*(i+1))
 
+#                             assignment
+
+print(' \nPls give odd no. above 3 for the ootput\n')
+n = int(input('Enter the size you want: '))
+a = ((n-2)+1)/2
+b = n-2
+result_str="";    
+for row in range(0,n):    
+    for column in range(0,n):     
+        if (((column == 1 or column == b) and row != 0) or ((row == 0 or row == a) and (column > 1 and column < b))):    
+            result_str=result_str+"*"    
+        else:      
+            result_str=result_str+" "    
+    result_str=result_str+"\n"    
+print('\n'+result_str);
+
