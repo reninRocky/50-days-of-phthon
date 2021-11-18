@@ -139,3 +139,4 @@ for row in range(0,n):
     result_str=result_str+"\n"    
 print('\n'+result_str);
 
+# if we want even letter a the a= (n-2)/2 and b= n-2
